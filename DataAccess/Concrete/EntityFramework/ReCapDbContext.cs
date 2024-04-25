@@ -13,7 +13,7 @@ namespace DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server = LAPTOP-HHNSAKJD\SQLEXPRESS;Database = ReCapDb; Trusted_Connection = true");
+            optionsBuilder.UseSqlServer(@"Server = LAPTOP-HHNSAKJD\SQLEXPRESS;Database = ReCapDb; Trusted_Connection = true; TrustServerCertificate=true;MultipleActiveResultSets=true");
 
         }
 
