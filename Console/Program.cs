@@ -6,11 +6,11 @@ using Entities.Concrete;
 
 CarManager carManager = new CarManager(new EfCarDal());
 
-foreach (var car in carManager.GetCarDetails())
-{
-    Console.WriteLine(car.Id + "/" + car.Description + "/" + car.DailyPrice + "/" + car.BrandName
-        + "/" + car.ColorName);
-}
+//foreach (var car in carManager.GetCarDetails())
+//{
+//    Console.WriteLine(car.Id + "/" + car.Description + "/" + car.DailyPrice + "/" + car.BrandName
+//        + "/" + car.ColorName);
+//}
 
 //foreach (var car in carManager.GetAll())
 //{
