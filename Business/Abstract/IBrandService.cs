@@ -17,5 +17,5 @@ namespace Business.Abstract
         IDataResult<List<Brand>> GetById(int id);
     }
 
-    //fgdfgdg
+    
 }
